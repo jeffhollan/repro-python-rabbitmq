@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "rabbitMqTrigger",
+      "direction": "in",
+      "queueName": "hello",
+      "ConnectionStringSetting": "RabbitMqHost",
+      "dataType": "binary"
+    }
+  ]
+}
